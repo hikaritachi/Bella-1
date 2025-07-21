@@ -17,11 +17,11 @@
 
     <!-- 视频背景 -->
     <div class="video-container">
-        <video autoplay muted class="bg-video active" id="video1">
+       <video autoplay controls class="bg-video active" id="video1">
             <source src="视频资源/3D 建模图片制作.mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video>
-        <video muted class="bg-video" id="video2">
+        <video autoplay controls class="bg-video" id="video2">
             <source src="" type="video/mp4">
             Your browser does not support the video tag.
         </video>
@@ -68,11 +68,10 @@
             <button class="menu-item" data-video="视频资源/生成跳舞视频.mp4">Dance</button>
         </div>
 
-        <!-- 底部麦克风和链接 -->
         <footer class="bottom-bar">
-            <button class="mic-button" id="mic-button" aria-label="Start Listening">
-                <i class="fas fa-microphone"></i>
-            </button>
+          <button class="send-button" id="send-button" aria-label="Send Input">
+            <i class="fas fa-paper-plane"></i> 发送
+          </button>
             <a href="https://x.com/jackywine" target="_blank" rel="noopener noreferrer" class="footer-credit">
                 @jackywine
             </a>
